@@ -9,3 +9,6 @@ export const LOGIN_URL = "https://inicio.prisma-latam.com/";
 
 // Perfil de LinkedIn de PRISMA.
 export const LINKEDIN_URL = "https://www.linkedin.com/company/prismalatam";
+
+// Canal oficial de Habeas Data / protección de datos personales.
+export const DATA_PROTECTION_EMAIL = "datospersonales@prisma-latam.com";
