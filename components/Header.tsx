@@ -7,10 +7,10 @@ import { DemoButton } from "./DemoButton";
 import { LoginButton } from "./LoginButton";
 
 const LINKS = [
-  { href: "#problema", label: "El problema" },
-  { href: "#producto", label: "Producto" },
-  { href: "#para-quien", label: "Para quién" },
-  { href: "#contacto", label: "Contacto" },
+  { href: "/#problema", label: "El problema" },
+  { href: "/#producto", label: "Producto" },
+  { href: "/#para-quien", label: "Para quién" },
+  { href: "/#contacto", label: "Contacto" },
 ];
 
 export function Header() {
@@ -19,7 +19,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-100 bg-white/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-2">
-        <a href="#" aria-label="PRISMA — inicio">
+        <a href="/" aria-label="PRISMA — inicio">
           <Logo />
         </a>
 
