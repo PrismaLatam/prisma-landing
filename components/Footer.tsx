@@ -45,12 +45,20 @@ export function Footer() {
       </div>
       <div className="mx-auto mt-8 flex max-w-6xl flex-col gap-2 px-4 text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between">
         <p>© 2026 PRISMA. Todos los derechos reservados.</p>
-        <Link
-          href="/politica-de-privacidad"
-          className="underline-offset-4 hover:text-ink hover:underline"
-        >
-          Política de privacidad y tratamiento de datos personales
-        </Link>
+        <div className="flex flex-col gap-2 sm:items-end">
+          <Link
+            href="/politica-de-privacidad"
+            className="underline-offset-4 hover:text-ink hover:underline"
+          >
+            Política de privacidad y tratamiento de datos personales
+          </Link>
+          <Link
+            href="/aviso-de-privacidad"
+            className="underline-offset-4 hover:text-ink hover:underline"
+          >
+            Aviso de privacidad
+          </Link>
+        </div>
       </div>
     </footer>
   );
