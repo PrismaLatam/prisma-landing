@@ -60,6 +60,36 @@ export function Footer() {
           </Link>
         </div>
       </div>
+      <p className="mx-auto mt-6 max-w-6xl px-4 text-xs leading-relaxed text-slate-400">
+        PRISMA LATAM S.A.S., identificada con NIT 902.112.529-7, es Responsable
+        del tratamiento de los datos personales de los usuarios de su
+        plataforma y Encargado de los datos personales que sus clientes
+        corporativos cargan en ella. Usamos tus datos para habilitar y
+        administrar tu cuenta, prestarte el servicio y darte soporte. Puedes
+        conocer, actualizar, rectificar o suprimir tus datos y revocar tu
+        autorización escribiendo a{" "}
+        <a
+          href="mailto:datospersonales@prisma-latam.com"
+          className="underline underline-offset-4 hover:text-ink"
+        >
+          datospersonales@prisma-latam.com
+        </a>
+        . Conoce nuestro{" "}
+        <Link
+          href="/aviso-de-privacidad"
+          className="underline underline-offset-4 hover:text-ink"
+        >
+          Aviso de Privacidad
+        </Link>{" "}
+        y nuestra{" "}
+        <Link
+          href="/politica-de-privacidad"
+          className="underline underline-offset-4 hover:text-ink"
+        >
+          Política de Tratamiento de Datos Personales
+        </Link>
+        .
+      </p>
     </footer>
   );
 }
