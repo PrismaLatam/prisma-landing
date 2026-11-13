@@ -913,43 +913,40 @@ export default function PoliticaPrivacidad() {
               ¿Qué sucede con la autorización que nos das para tratar tus Datos
               Sensibles o si vamos a usar tus Datos Personales para otra Finalidad?
             </Pregunta>
-            <Seccion id="datos-sensibles" title="8. Autorización para el Tratamiento de Datos Sensibles.">
+            <Seccion id="datos-sensibles" title="8. Autorización para el Tratamiento de Datos Sensibles">
               <p>
-                La Sociedad tratará tus Datos Personales únicamente para las finalidades
-                informadas y autorizadas previamente por ti o por la ley. En caso de que
-                la Sociedad pretenda utilizar tus Datos Personales para nuevos usos o
-                finalidades sustancialmente distintas o incompatibles con las comunicadas
-                inicialmente, se aplicará el siguiente procedimiento:
+                La Sociedad solo tratará Datos Sensibles en los casos descritos en el
+                numeral 5 de esta Política y con la Autorización previa, expresa y
+                explícita del Titular, salvo en los casos en que la ley no exija dicha
+                Autorización, de conformidad con el artículo 6 de la Ley 1581 de 2012 y
+                el artículo 2.2.2.25.2.3 del Decreto 1074 de 2015. Al solicitar esta
+                Autorización, la Sociedad cumplirá con lo siguiente:
               </p>
               <Lista>
-                <Item label="Notificación Previa">
-                  Publicaremos la versión actualizada de esta Política en nuestro sitio
-                  web (https://prisma-latam.com) y en la Plataforma SaaS, e informaremos a
-                  los Titulares mediante correo electrónico o avisos visibles en el
-                  sistema antes de implementar la nueva finalidad.
+                <Item label="Carácter facultativo">
+                  Te informará que, por tratarse de Datos Sensibles, no estás obligado a
+                  autorizar su Tratamiento ni a responder preguntas sobre ellos.
                 </Item>
-                <Item label="Solicitud de Nueva Autorización">
-                  Si la nueva finalidad exige legalmente tu consentimiento, solicitaremos
-                  tu nueva Autorización previa y explícita por medios electrónicos o
-                  digitales habilitados.
+                <Item label="Identificación de los datos y su finalidad">
+                  Te indicará de forma explícita cuáles de los datos solicitados tienen la
+                  calidad de sensibles y la finalidad específica para la cual serán
+                  tratados.
                 </Item>
-                <Item label="Derecho a la Revocatoria y Supresión">
-                  En caso de que no estés de acuerdo con los nuevos usos o finalidades
-                  propuestas, podrás revocar la Autorización otorgada y solicitar la
-                  supresión de tus Datos Personales de nuestras Bases de Datos, siempre
-                  que no exista un deber legal, tributario, contable o contractual que
-                  obligue a la Sociedad a conservar la información.
+                <Item label="No condicionamiento">
+                  Ninguna actividad ni servicio de la Sociedad se condicionará a que
+                  suministres Datos Sensibles.
                 </Item>
               </Lista>
               <Nota>
-                (Garantía de Transparencia: La simple actualización o publicación de una
-                nueva versión de esta Política no constituye ni se interpretará por sí
-                sola como una autorización automática para dar uso secundario o no
-                previsto a los datos personales de los Titulares).
+                (Calidad de Encargada: Cuando la Sociedad actúe como Encargada,
+                corresponde al Cliente Corporativo, como Responsable, obtener la
+                Autorización de los Titulares para el Tratamiento de los Datos Sensibles
+                que eventualmente contengan los documentos cargados en la Plataforma, la
+                cual no está diseñada para gestionar este tipo de información).
               </Nota>
             </Seccion>
 
-            <Seccion id="nuevos-usos" title="9. Autorización para nuevos usos o finalidades.">
+            <Seccion id="nuevos-usos" title="9. Autorización para nuevos usos o finalidades">
               <p>
                 La Sociedad tratará tus Datos Personales únicamente para las finalidades
                 informadas y autorizadas previamente por ti, por tu organización o por
@@ -1171,7 +1168,7 @@ export default function PoliticaPrivacidad() {
                   Finalizada la relación comercial o cancelada la cuenta, la Sociedad
                   conservará la información básica de contacto y facturación durante los
                   plazos de prescripción de las acciones legales, comerciales, contables y
-                  tributarias fijados por la ley colombiana (hasta diez [10] años para
+                  tributarias fijados por la ley colombiana (hasta diez (10) años para
                   soportes contables y fiscales).
                 </Item>
               </Lista>
@@ -1188,8 +1185,8 @@ export default function PoliticaPrivacidad() {
                   instrucciones documentadas (DPA).
                 </Item>
                 <Item label="Al finalizar el contrato">
-                  A la terminación de los Servicios, la Sociedad otorgará un plazo
-                  razonable al Cliente Corporativo para la exportación y descarga de sus
+                  A la terminación de los Servicios, la Sociedad otorgará al Cliente
+                  Corporativo un plazo de treinta (30) días calendario para la exportación y descarga de sus
                   bases estructuradas en Excel. Vencido dicho plazo, la Sociedad procederá
                   a la devolución, supresión segura o borrado de todos los documentos y
                   campos procesados en sus servidores y en los de sus Subencargados, salvo
@@ -1203,7 +1200,7 @@ export default function PoliticaPrivacidad() {
                 <Item label="Colaboradores y contratistas">
                   Los datos se conservarán durante el término de la relación laboral o
                   contractual y por el plazo de prescripción de las acciones laborales
-                  (mínimo tres [3] años contados desde la liquidación, o los plazos
+                  (mínimo tres (3) años contados desde la liquidación, o los plazos
                   aplicables para efectos pensionales).
                 </Item>
                 <Item label="Candidatos no seleccionados">
@@ -1353,7 +1350,7 @@ export default function PoliticaPrivacidad() {
                 Respecto a las pólizas y documentos cargados en la Plataforma por un
                 Cliente Corporativo, la eliminación procederá previa instrucción directa
                 del Cliente Responsable o al finalizar el contrato de servicios SaaS.
-                Cumplido el plazo de gracia otorgado para la exportación de información en
+                Cumplido el plazo de treinta (30) días calendario otorgado para la exportación de información en
                 Excel, la Sociedad eliminará de manera definitiva los archivos PDF
                 almacenados en Cloudflare y los registros estructurados de la base de
                 datos Neon.
